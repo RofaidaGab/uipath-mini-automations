@@ -1,0 +1,10 @@
+# UiPath execution and temporary files
+.local/
+.entities/
+.objects/
+.screenshots/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
