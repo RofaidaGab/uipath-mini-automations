@@ -1,10 +1,35 @@
-# UiPath execution and temporary files
-.local/
-.entities/
-.objects/
-.screenshots/
-*.log
+# =========================================================
+# .gitignore for UiPath Studio projects
+# Tailored for: uipath-mini-automations
+# =========================================================
 
-# System files
-.DS_Store
+.local/
+.settings/
+.objects/
+.entities/
+.storage/
+.tmh/
+
+*.nupkg
+Output/
+
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.doc
+
+*.log
+Exception_Screenshots/
+
+Data/Input/*
+Data/Output/*
+!Data/Input/.gitkeep
+!Data/Output/.gitkeep
+
+Desktop.ini
 Thumbs.db
+**/.DS_Store
+
+*.swp
+*.bak
+*.tmp
